@@ -14,6 +14,16 @@ a {
     color: white;
 }
 
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
 /* Class references */
 
 .nav-panel {
@@ -93,11 +103,44 @@ a {
 }
 
 .sign-up-section {
-    background-color: aquamarine;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container {
+    margin: 30px 10px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 40%;
+    justify-content: space-evenly;
+    color: white;
+    display: flex;
+    background-color: #3882f6;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sign-up-container button {
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    background-color: #3882f6;
+    align-self: center;
+    height: 25px;
+    width: 100px;
 }
 
 .footer-section {
-    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 /* ID references */
