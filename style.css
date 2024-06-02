@@ -26,9 +26,13 @@ h3 {
 
 /* Class references */
 
+/* General classes (color etc) */
+.text-color-white {
+    color: white;
+}
+
 .nav-panel {
     background-color: #1F2937;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +47,6 @@ h3 {
 
 .title-section {
     background-color: #1F2937;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +61,6 @@ h3 {
 }
 
 .title-container-two > img {
-    color:white;
     width: 300px;
 }
 
@@ -95,11 +97,20 @@ h3 {
 }
 
 .quote {
+    padding: 25px 0px;
     width: 60%;
+}
+
+.quote p {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
 }
 
 .quote > h3 {
     text-align: right;
+    margin-right: 70px;
 }
 
 .sign-up-section {
@@ -115,19 +126,16 @@ h3 {
     border-radius: 10px;
     width: 40%;
     justify-content: space-evenly;
-    color: white;
     display: flex;
     background-color: #3882f6;
 }
 
 .sign-up-text {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 
 .sign-up-container button {
-    color: white;
     border-color: white;
     border-radius: 10px;
     background-color: #3882f6;
@@ -140,7 +148,6 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
 }
 
 /* ID references */
