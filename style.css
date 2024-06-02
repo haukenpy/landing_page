@@ -1,0 +1,51 @@
+/* General references */
+
+body {
+    background-color: #1F2937;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Class references */
+
+.nav-panel {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+}
+
+.nav-panel ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.title-section {
+    background-color: #1F2937;
+}
+
+.card-section {
+    background-color: azure;
+}
+
+.quote-section {
+    background-color: brown;
+}
+
+.sign-up-section {
+    background-color: aquamarine;
+}
+
+.footer-section {
+    background-color: blue;
+}
