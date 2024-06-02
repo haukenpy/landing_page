@@ -32,6 +32,23 @@ a {
 
 .title-section {
     background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 390px;
+    margin-bottom: 50px;
+}
+
+.title-container-one {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.title-container-two > img {
+    color:white;
+    width: 300px;
 }
 
 .card-section {
@@ -48,4 +65,14 @@ a {
 
 .footer-section {
     background-color: blue;
+}
+
+/* ID references */
+
+#title-button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    width: 100px;
 }
