@@ -2,7 +2,7 @@
 
 body {
     background-color: #1F2937;
-    color: white;
+    color: black;
 }
 
 ul {
@@ -18,6 +18,7 @@ a {
 
 .nav-panel {
     background-color: #1F2937;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +38,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 390px;
-    margin-bottom: 50px;
+    padding-bottom: 75px;
 }
 
 .title-container-one {
@@ -52,11 +53,43 @@ a {
 }
 
 .card-section {
+    color: black;
+    padding: 10px; 
+    text-align: center;
     background-color: azure;
+    padding-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.card-container div {
+    width: 200px;
+}
+
+.card-container img {
+    width: 200px;
+    height: 200px;
 }
 
 .quote-section {
-    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 20px;
+}
+
+.quote {
+    width: 60%;
+}
+
+.quote > h3 {
+    text-align: right;
 }
 
 .sign-up-section {
