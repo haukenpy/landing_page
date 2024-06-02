@@ -24,11 +24,15 @@ h3 {
     margin: 0;
 }
 
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
 /* General classes (color etc) */
 .text-color-white {
     color: white;
 }
-
 
 /* Class references */
 
@@ -54,19 +58,21 @@ h3 {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 390px;
+    gap: 180px;
+    padding-top: 25px;
     padding-bottom: 75px;
 }
 
 .title-container-one {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    gap: 10px;
+    width: 500px;
 }
 
 .title-container-two > img {
-    width: 300px;
+    width: 400px;
+    height: 200px;
 }
 
 /* CSS for the card section - contains the pictures and the sub text. */ 
@@ -77,6 +83,10 @@ h3 {
     text-align: center;
     background-color: azure;
     padding-bottom: 30px;
+}
+
+.card-section h1 {
+    margin-bottom: 20px;
 }
 
 .card-container {
