@@ -24,12 +24,15 @@ h3 {
     margin: 0;
 }
 
-/* Class references */
-
 /* General classes (color etc) */
 .text-color-white {
     color: white;
 }
+
+
+/* Class references */
+
+/* CSS For the navigation bar - Top div */
 
 .nav-panel {
     background-color: #1F2937;
@@ -44,6 +47,8 @@ h3 {
     gap: 20px;
     align-items: center;
 }
+
+/* CSS for the title section - second div from top */
 
 .title-section {
     background-color: #1F2937;
@@ -63,6 +68,8 @@ h3 {
 .title-container-two > img {
     width: 300px;
 }
+
+/* CSS for the card section - contains the pictures and the sub text. */ 
 
 .card-section {
     color: black;
@@ -89,6 +96,8 @@ h3 {
     border-radius: 5px;
 }
 
+/* CSS for the quote section - contains a quote div, with <p> and <h3> */
+
 .quote-section {
     display: flex;
     justify-content: center;
@@ -113,6 +122,8 @@ h3 {
     text-align: right;
     margin-right: 70px;
 }
+
+/* CSS for the sign-up section - contains two divs */
 
 .sign-up-section {
     background-color: white;
@@ -144,6 +155,8 @@ h3 {
     height: 25px;
     width: 100px;
 }
+
+/* CSS for the footer section - contains a centered div */
 
 .footer-section {
     display: flex;
